@@ -5,7 +5,7 @@ const products = [
       price: 29.99,
       description:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, error.",
-      imgSrc: "./img/t1.png",
+      imgSrc: "./Img/t1.png",
     },
     {
       id: 1,
@@ -13,7 +13,7 @@ const products = [
       price: 24.99,
       description:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, error.",
-      imgSrc: "./img/t2.png",
+      imgSrc: "./Img/t2.png",
     },
     {
       id: 2,
@@ -21,7 +21,7 @@ const products = [
       price: 19.99,
       description:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, error.",
-      imgSrc: "./img/t3.png",
+      imgSrc: "./Img/t3.png",
     },
     {
       id: 3,
@@ -29,7 +29,7 @@ const products = [
       price: 25.99,
       description:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, error.",
-      imgSrc: "./img/t4.png",
+      imgSrc: "./Img/t4.png",
     },
     {
       id: 4,
@@ -37,7 +37,7 @@ const products = [
       price: 29.99,
       description:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, error.",
-      imgSrc: "./img/t5.png",
+      imgSrc: "./Img/t5.png",
     },
     {
       id: 5,
@@ -45,6 +45,6 @@ const products = [
       price: 39.99,
       description:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, error.",
-      imgSrc: "./img/t6.png",
+      imgSrc: "./Img/t6.png",
     },
   ];
