@@ -9,7 +9,7 @@
   let cartitems = document.querySelector('.cart-items');
   let cart_div = document.querySelector('.cart')
   let total = document.querySelector('.subtotal')
-  // let totalquantity = document.querySelector('.totalquantity')
+  let totalquantity = document.querySelector('.totalquantity')
 
   openShopping.addEventListener('click', ()=>{
     cart_div.style.visibility = 'visible';
@@ -66,11 +66,11 @@ function addToCart(id){
 
 function renderCartItems() {
   cartitems.innerHTML = ""; // clear cart element
-  // let count = 0;
+  let count = 0;
   let totalPrice = 0;
   cart.forEach((item, key) => {
     totalPrice = totalPrice + item.price;
-    // count = count + item.quantity;
+    count = count + item.quantity;
     cartitems.innerHTML += `
         <div class="cart-item">
             <div class="item-info">
@@ -89,7 +89,7 @@ function renderCartItems() {
       `;
   });
   total.innerText = `Total Amount:${ ' $' + totalPrice.toLocaleString()}`;
-  // totalquantity.innerText = count;
+  totalquantity.innerText = count;
 }
 
 function changeQuantity(key, quantity){
